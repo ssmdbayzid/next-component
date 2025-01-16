@@ -1,14 +1,9 @@
-
-import {data} from "@/assets/data";
-import Sidebar from "@/components/Sidebar/Sidebar";
-
-
+import Sidebar from "@/app/(pages)/components/Sidebar/Sidebar";
 
 export default function Home() {
-console.log(data)
   return (
       <div>
-        <Sidebar />
+          <Sidebar />
       </div>
   );
 }

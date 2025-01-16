@@ -1,3 +1,7 @@
+import Header1 from "@/app/(pages)/components/Header/Header1";
+
 export default function Dashboard() {
-    return <div>Dashboard</div>;
+    return <div>
+    <Header1 />
+    </div>;
 }

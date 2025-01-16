@@ -103,7 +103,7 @@ const Sidebar = () => {
             <SidebarWrapper $isOpen={isOpen}>
                 <MenuList>
                     <MenuItem>
-                        <Link href="/dashboard">Home</Link>
+                        <Link href="/dashboard">Header</Link>
                     </MenuItem>
                     <MenuItem>
                         <Link href="/dashboard/reports">Reports</Link>
